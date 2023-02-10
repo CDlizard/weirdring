@@ -1,3 +1,3 @@
-url: https://insert-your-url-here.invalid # replace with your webring's URL, which should end in .netlify.app (no slash afterwards)
+url: https://weirdring.netlify.app/ # replace with your webring's URL, which should end in .netlify.app (no slash afterwards)
 include: [_redirects]
 github_repo_url: https://github.com/lizard985/weirdring # replace with your repository's URL, which should begin with https://github.com/ and should also have no slash at the end
