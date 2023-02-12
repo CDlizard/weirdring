@@ -30,3 +30,6 @@ Check if the <aside> element is right for you.
 
 ## Contributing
 Feel free to make Pull Requests!
+
+# TODO:
+- Add search once we reach 20 members

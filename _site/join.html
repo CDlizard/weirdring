@@ -5,47 +5,54 @@
 <link rel=stylesheet href=/main.css>
 <main>
     <div class="content-wrapper">
-    <p style="text-align: center; padding: 5px; border: 3px solid #000000;"><a href="https://weirdring.netlify.app//member2/previous">&#60;&#60;</a><a
-        href="https://weirdring.netlify.app/"> weirdring </a><a
-        href="https://weirdring.netlify.app//member2/next">&#62;&#62;</a></p>
-    <h1>Joining the Weirdcore Webring!</h1>
+        <p style="text-align: center; padding: 5px; border: 3px solid #000000;"><a
+                href="https://weirdring.netlify.app//member2/previous">&#60;&#60; back - </a><a
+                href="https://weirdring.netlify.app/"> weirdring </a><a
+                href="https://weirdring.netlify.app//member2/next"> - next &#62;&#62;</a></p>
+        <h1>Joining the Weirdcore Webring!</h1>
 <h2>Requirements:</h2>
 <ul>
-<li>Your site must include some weirdcore/webcore elements to qualify.
-<li>All weirdcord server rules also apply here, ESPECIALLY NSFW CONTENT!
-<li>No hate speech or bigotry.
-<li>No being advertisement-focused.
+    <li>Your site must include some weirdcore/webcore elements to qualify.
+    <li>All weirdcord server rules also apply here, ESPECIALLY NSFW CONTENT!
+    <li>No hate speech or bigotry.
+    <li>No being advertisement-focused.
 </ul>
 
-<small>It is impossible to enumerate everything that is not allowed. For this reason, we (the webmasters) reserve the right to remove a site if we feel it is outside of our own personal bounds.</small>
+<small>It is impossible to enumerate everything that is not allowed. For this reason, we (the webmasters) reserve the
+    right to remove a site if we feel it is outside of our own personal bounds.</small>
 
 <h2>Add yourself to the members list</h2>
-<p>Add a unique slug, your webpage's name, and your webpage's URL to <a href=https://github.com/lizard985/weirdring/blob/main/_data/members.csv>the members list on GitHub</a> in a pull request.<br>
-Pull requests can also be used to change your existing entry or delete your entry.</p>
+<p>Add a unique slug, your webpage's name, and your webpage's URL to <a
+        href=https://github.com/lizard985/weirdring/blob/main/_data/members.csv>the members list on GitHub</a> in a pull request.<br>
+        Pull requests can also be used to change your existing entry or delete your entry.</p>
 
 <details>
-<summary>If you don't have a GitHub account, fill out this form instead:</summary>
-<form name=signup method=POST data-netlify=true netlify-honeypot=bot>
-<div hidden><label>Leave this blank unless you're spam <input name=bot></label></div>
-<label>Slug <input name=slug pattern=[0-9a-z](?:-?[0-9a-z])* required></label>
-(ASCII lowercase letters, digits, and hyphen-minuses)<br>
-<label>Name <textarea name=name></textarea></label><br>
-<label>URL <input name=url type=url></label><br>
-<label>E-mail address <input type=email name=email required></label><br>You'll receive an e-mail when your addition/change is made.<br>
-<input type=submit>
-</form>
-If you're editing your existing entry, make sure to use the same slug. If you're deleting your existing entry, leave the URL field blank.
+    <summary>If you don't have a GitHub account, fill out this form instead:</summary>
+    <form name=signup method=POST data-netlify=true netlify-honeypot=bot>
+        <div hidden><label>Leave this blank unless you're spam <input name=bot></label></div>
+        <label>Slug <input name=slug pattern=[0-9a-z](?:-?[0-9a-z])* required></label>
+        (ASCII lowercase letters, digits, and hyphen-minuses)<br>
+        <label>Name <textarea name=name></textarea></label><br>
+        <label>URL <input name=url type=url></label><br>
+        <label>E-mail address <input type=email name=email required></label><br>You'll receive an e-mail when your
+        addition/change is made.<br>
+        <input type=submit>
+    </form>
+    If you're editing your existing entry, make sure to use the same slug. If you're deleting your existing entry, leave
+    the URL field blank.
 </details>
 
 <h2>Add links on your webpage</h2>
-<p>Once you're on the members list, add links on your webpage to <b>http://localhost:4000/YOUR-SLUG/next</b> and <b>http://localhost:4000/YOUR-SLUG/previous</b>, replacing <b>YOUR-SLUG</b> with the slug you chose.<br>
-Feel free to include a link to <b>http://localhost:4000/</b> as well.<br>
-Check if <a href=https://html.spec.whatwg.org/dev/sections.html#the-aside-element>the <code>&lt;aside&gt;</code> element</a> is right for you.
+<p>Once you're on the members list, add links on your webpage to <b>http://localhost:4000/YOUR-SLUG/next</b> and
+    <b>http://localhost:4000/YOUR-SLUG/previous</b>, replacing <b>YOUR-SLUG</b> with the slug you chose.<br>
+    Feel free to include a link to <b>http://localhost:4000/</b> as well.<br>
+    Check if <a href=https://html.spec.whatwg.org/dev/sections.html#the-aside-element>the <code>&lt;aside&gt;</code>
+        element</a> is right for you.
     </div>
 </main>
 <footer>
     <nav>
         <a href=/>Index of Site</a> - <a href=https://github.com/lizard985/weirdring>View on GitHub</a>
     </nav>
-    Version 0.02
+    Version 0.03
 </footer>
