@@ -2,13 +2,20 @@
 ---
 <!DOCTYPE html>
 <html lang=en>
-<title>{{page.title}}</title>
+<title>Weirdcore Webring | {{page.title}}</title>
 <meta charset=utf-8>
 <link rel=stylesheet href={{'main.css'|relative_url}}>
 <main>
-{{content}}
+    <div class="content-wrapper">
+    <p style="text-align: center; padding: 5px; border: 3px solid #000000;"><a href="https://weirdring.netlify.app//member2/previous">&#60;&#60;</a><a
+        href="https://weirdring.netlify.app/"> weirdring </a><a
+        href="https://weirdring.netlify.app//member2/next">&#62;&#62;</a></p>
+    {{content}}
+    </div>
 </main>
-<footer><nav>
-<a href={{'/'|relative_url}}>Index</a><br>
-<a href={{site.github_repo_url}}>View on GitHub</a>
-</nav></footer>
+<footer>
+    <nav>
+        <a href={{'/'|relative_url}}>Index of Site</a> - <a href={{site.github_repo_url}}>View on GitHub</a>
+    </nav>
+    Version 0.02
+</footer>

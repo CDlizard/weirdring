@@ -1,17 +1,31 @@
 ---
-title: Weirdcord Webring
+title: Home
 layout: html
 ---
-<h1>Weirdcord's very own webring!</h1>
-<p>Insert a description of the webring here. Maybe link to an explanation of what a <a href=https://en.wikipedia.org/wiki/Webring>webring</a> is.<br>
-Perhaps link to a page explaining how to <a href="{{'/join'|relative_url}}">join the webring</a> (shown later in the tutorial)
+<h1>Weirdcord's Very Own Webring!</h1>
 
-<p>If the ring is broken, please <a href={{site.github_repo_url}}/issues/new>submit an error report on GitHub</a>.
-
-<h2 id=members>Members ({{site.data.members.size}})</h2>
-<ul>
-{% for member in site.data.members %}
-<li><a href="{{member.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
-</ul>
-
-<p><a href="https://weirdring.netlify.app//member2/previous">&#60;&#60;</a><a href="https://weirdring.netlify.app/">weirdring</a><a href="https://weirdring.netlify.app//member2/next">&#62;&#62;</a></p>
+Our community webring is dedicated to the genre of Weirdcore. This eclectic and quirky style of music and art is
+characterized by its unconventional, eclectic, and often bizarre qualities. If you're a fan of the strange and unusual,
+this is the webring for you!
+<br>
+<br>
+A webring is a network of websites linked together in a circular structure, creating a collective community with a
+shared interest. Webrings were popular in the early days of the internet as a way for people to navigate and discover
+related websites.
+<br>
+<br>
+Joining instructions: <a href="{{'/join'|relative_url}}">Here</a>
+<br>
+<br>
+Our webring is a platform for fans of weirdcore to come together and explore the genre in all its weird and wonderful
+forms. Whether you're a musician, artist, or just a lover of all things odd, our webring provides a space for you to
+connect with like-minded individuals and discover new and exciting expressions of the genre. Join us and embrace the
+weird!
+<br>
+<br>
+If the ring is broken, please <a href={{site.github_repo_url}}/issues/new>submit an error report on GitHub! <h2
+    id=members>Members ({{site.data.members.size}})</h2>
+    <ul>
+        {% for member in site.data.members %}
+        <li><a href="{{member.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
+    </ul>

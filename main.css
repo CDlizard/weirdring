@@ -1,0 +1,14 @@
+.content-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+}
+
+* {
+  background-color: rgb(131, 162, 192);
+}
+
+footer {
+  text-align: center;
+}
+

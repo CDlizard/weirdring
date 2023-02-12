@@ -1,0 +1,17 @@
+.content-wrapper {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 960px;
+  padding: 10px;
+}
+
+* {
+  background-color: rgb(237, 237, 237);
+}
+
+footer {
+  text-align: center;
+}
+
+
+
