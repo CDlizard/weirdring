@@ -1,0 +1,2 @@
+# removes gemfile lock
+*.lock
