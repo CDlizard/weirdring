@@ -2,28 +2,41 @@
 title: Home
 layout: html
 ---
-<h1>WELCOME!</h1>
+<div class="welcome" style="display: flex;
+justify-content: center;
+align-items: center;"><img src="./assets/sparkles.gif" alt="deco" srcset=""><img width="200"
+        src="./assets/welcome.gif" /><img src="./assets/sparkles.gif" alt="deco" srcset=""></div>
+
+<h3 style="text-align: center;">N.E.W.S!</h3>
+{% assign lastmember = site.data.members %}
+<marquee behavior="scroll" direction="left">Happy Valentines Everyone!!! ----- Newest Member:
+    {{lastmember.last.name | xml_escape}} ----- Version 0.06 Coming soon with: Forums! Q&A! Newsletter! + more!
+</marquee>
+
 <h2>What is this?</h2>
 
-<p>Our community webring is dedicated to the genre of Weirdcore. This eclectic and quirky style of music and art is
-    characterized by its unconventional, eclectic, and often bizarre qualities. If you're a fan of the strange and
-    unusual,
-    this is the webring for you!</p>
-<p>A webring is a network of websites linked together in a circular structure, creating a collective community with a
-    shared interest. Webrings were popular in the early days of the internet as a way for people to navigate and
-    discover
-    related websites.</p>
+<p>Welcome to the Weirdcore web-ring, where we embrace all things strange, surreal, and bizarre! Prepare to take a
+    journey through a world of twisted and mind-bending content that will leave you questioning reality itself. This is
+    the place for those who dare to venture beyond the norm and explore the outer limits of the internet.!</p>
+<p>Explore our twisted web-ring and discover some of the most bizarre and unique sites the internet has to offer. From
+    creepy pastas to avant-garde art, you're sure to find something that will pique your interest.</p>
 <p>Joining instructions: <a href="{{'/join'|relative_url}}">Here</a></p>
+
+<img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img><img src="./assets/StarBender.gif"></img>
+
 <p>
-    Our webring is a platform for fans of weirdcore to come together and explore the genre in all its weird and
-    wonderful
-    forms. Whether you're a musician, artist, or just a lover of all things odd, our webring provides a space for you to
-    connect with like-minded individuals and discover new and exciting expressions of the genre. Join us and embrace the
-    weird!
+    Weirdcore is not for the faint of heart, so be prepared to delve into some of the most unsettling and unsettlingly
+    intriguing content the web has to offer. Our network of sites features everything from eerie short films to offbeat
+    comics, and everything in between.
 </p>
-If the ring is broken, please <a href={{site.github_repo_url}}/issues/new>submit an error report on GitHub!</a> <h2
-    id=members>Members ({{site.data.members.size}})</h2>
-    <ul>
-        {% for member in site.data.members %}
-        <li><a href="{{member.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a>{% endfor %}
-    </ul>
+<p>
+    Join our community of weirdos and share your own bizarre creations with others who truly understand your unique
+    point of view. We're always looking for new members to join our twisted family, so if you have a site that you think
+    fits the bill, we want to hear from you.
+</p>
+<p>
+    So what are you waiting for? Click around and explore the twisted, surreal world of the Weirdcore web-ring.
+    Remember: there's no such thing as normal here, and that's just the way we like it.
+</p>
+
+
