@@ -1,2 +1,4 @@
 # removes gemfile lock
 *.lock
+# removes _site 
+_site/
