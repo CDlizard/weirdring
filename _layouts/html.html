@@ -6,14 +6,6 @@
 <meta charset=utf-8>
 <link rel=stylesheet href={{'main.css'|relative_url}}>
 <script src="https://unpkg.com/cursor-effects@latest/dist/browser.js"></script>
-<audio
-src="https://cdn.glitch.me/bd96471c-92c7-411b-a700-ac0fcf0032f5/brain%20tickler.ogg?v=1651849983855"
-type="audio/ogg"
-loop
-autoplay
->
-Error: your web browser does not support this audio player.
-</audio>
 
 <main>
     <div class="content-wrapper">
@@ -24,24 +16,31 @@ Error: your web browser does not support this audio player.
                     style='max-width: 42px;' alt="right"></a></p>
         <div class="line" style="display: flex;
 justify-content: center;
-align-items: center;"><img style='max-width: 200px;' src="./assets/linered.gif"></div><br>
+align-items: center;"><img style='max-width: 200px;' src="./assets/pumpkinline.gif"></div><br>
 
         {{content}}
         <aside>
             <article>
-                If the ring is broken, please <a href={{site.github_repo_url}}/issues/new>submit an error report on GitHub!</a> <h2
-                id=members>Members ({{site.data.members.size}})</h2>
+                If the ring is broken, please <a href={{site.github_repo_url}}/issues/new>submit an error report on
+                    GitHub!</a>
+                <h2 id=members>Members ({{site.data.members.size}})</h2>
                 <ul>
                     {% for member in site.data.members %}
                     <li><a href="{{member.url | xml_escape}}">{{member.name | xml_escape | newline_to_br}}</a> -
                         {{member.oneliner | xml_escape}}{% endfor %}
                 </ul>
-                <table border="1">
+                <table border="1" align="center">
                     <tr>
                         <td>JOIN TODAY!!!! PLZZZZZZ</td>
                     </tr>
                 </table>
-                <div align='center'><a href='https://www.free-website-hit-counter.com'><img src='https://www.free-website-hit-counter.com/c.php?d=9&id=145668&s=288' border='5' alt='Free Website Hit Counter'></a><br / ><small><a href='https://www.free-website-hit-counter.com' title="Free Website Hit Counter"></a></small></div>
+                <div align='center'><a href='https://www.free-website-hit-counter.com'><img
+                            src='https://www.free-website-hit-counter.com/c.php?d=9&id=145668&s=288' border='5'
+                            alt='Free Website Hit Counter'></a><br /><small><a
+                            href='https://www.free-website-hit-counter.com'
+                            title="Free Website Hit Counter"></a></small></div>
+
+                <a href={{'/archive'|relative_url}}>View archived members here</a>
             </article>
         </aside>
     </div>
@@ -51,10 +50,10 @@ align-items: center;"><img style='max-width: 200px;' src="./assets/linered.gif">
         <a href={{'/'|relative_url}}>Index of Site</a> - <a href={{site.github_repo_url}}>View on GitHub</a> - <a
             href={{'/pjBQ5RaxeZGm41YvU'|relative_url}}>Error</a>
     </nav>
-    Version 0.05
+    Version 0.06
     <div class="links">
         <img style="size: 50px;" src="./assets/ButtonIE.gif" alt="Powered by Internet Explorer"> <img
             style="size: 50px;" src="./assets/flsh.bmp" alt="">
     </div>
-    This website is best viewed at 800×600 resolution in Internet Explorer 5 - 
+    This website is best viewed at 800×600 resolution in Internet Explorer 5 -
 </footer>

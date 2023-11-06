@@ -3,8 +3,8 @@
   margin-left: auto;
   max-width: 960px;
   padding: 20px;
-  background-image: url('./assets/clouds.png');
-  border: 7mm ridge rgb(180, 0, 0);
+  background-image: url('./assets/autumn.gif');
+  border: 7mm ridge rgb(228, 102, 0);
 }
 
 #selector {
@@ -13,8 +13,13 @@
 }
 
 a {
-  color: red;
+  color: rgb(255, 145, 0);
   font-weight: bold;
+  background-color: black;
+}
+
+a:visited {
+  color:rgb(255, 208, 0)
 }
 
 footer {
@@ -24,12 +29,12 @@ footer {
   max-width: 960px;
   padding: 46px;
   font-style: italic;
-  background-color: rgb(101, 0, 0);
+  background-color: rgb(228, 102, 0);
   color: white;
 }
 
 h2 {
-  color: red;
+  color: rgb(255, 136, 0);
   text-shadow: 1px 1px 0 #000000;
 }
 
@@ -44,11 +49,11 @@ body {
 article{
   margin: 5px;
   padding: 5px 0;
-  border: solid 1px #ff0000;
+  border: solid 1px rgb(228, 102, 0);
   overflow: hidden;
   padding-top: 0px;
   color: white;
-  background-image: url('./assets/lava.png');
+  background-image: url('./assets/maple-leaves.gif');
 }
 
 aside{
@@ -57,7 +62,8 @@ aside{
 }
 
 marquee {
-  color: red;
+  color: rgb(255, 187, 0);
+  background-color: #000000;
 }
 
 /* Start https://www.cursors-4u.com */ * {cursor: url(https://cur.cursors-4u.net/cursors/cur-2/cur117.cur), auto !important;} /* End https://www.cursors-4u.com */
