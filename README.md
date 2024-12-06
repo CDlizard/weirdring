@@ -2,8 +2,6 @@
 
 Come visit [here](https://weirdring.netlify.app/)!
 
-Our community webring is dedicated to the genre of Weirdcore. This eclectic and quirky style of music and art is characterized by its unconventional, eclectic, and often bizarre qualities. If you're a fan of the strange and unusual, this is the webring for you!
-
 A webring is a network of websites linked together in a circular structure, creating a collective community with a shared interest. Webrings were popular in the early days of the internet as a way for people to navigate and discover related websites.
 
 ## Requirements:
@@ -19,13 +17,13 @@ A webring is a network of websites linked together in a circular structure, crea
 
 Add a unique slug, your webpage's name, and your webpage's URL to the members list on GitHub in a pull request.
 Pull requests can also be used to change your existing entry or delete your entry.
-If you don't have a GitHub account, fill out this form instead:
+If you don't have a GitHub account, fill out this form instead: <a href="https://weirdring.netlify.app/join">https://weirdring.netlify.app/join</a>
 If you're editing your existing entry, make sure to use the same slug. If you're deleting your existing entry, leave the URL field blank.
 
 ## Add links on your webpage:
 
-Once you're on the members list, add links on your webpage to http://localhost:4000/YOUR-SLUG/next and http://localhost:4000/YOUR-SLUG/previous, replacing YOUR-SLUG with the slug you chose.
-Feel free to include a link to http://localhost:4000/ as well.
+Once you're on the members list, add links on your webpage to https://weirdring.netlify.app/YOUR-SLUG/next and https://weirdring.netlify.app/YOUR-SLUG/previous, replacing YOUR-SLUG with the slug you chose.
+Feel free to include a link to https://weirdring.netlify.app as well.
 Check if the <aside> element is right for you. 
 
 ## Contributing
